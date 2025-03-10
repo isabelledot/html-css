@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em html</title>
+</head>
+<body>
+    <h1>imagem dinamica</h1>
+    <p>tente abrir esse site em varios navegadores diferentes ou ajuste o tamanho</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="img/pequena.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="img/media.png" type="image/png">
+        <img src="img/grande.png" alt="imagem flexível">
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>vamos aprender a reproduzir áudio em html</p>
+    <audio src="midia/Shady Guy - Surf Ninja 3.mp3" controls autoplay> 
+    </audio>
+</body>
+</html>
